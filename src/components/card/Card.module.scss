@@ -1,0 +1,20 @@
+$text-blue: #010a60;
+
+h1,
+p {
+  color: $text-blue;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.cardBox {
+  box-shadow: 5px 16px 14px 8px #0000001c;
+  width: 75%;
+  // height: ;
+  background-color: #ffffff;
+}

@@ -1,0 +1,38 @@
+.container {
+  margin-bottom: 10em;
+}
+
+.inputContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input {
+  width: 30%;
+  height: 4em;
+  background-color: #eff2f8;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-top-left-radius: 30px 70%;
+  border-bottom-left-radius: 30px 70%;
+}
+
+.errorMessage {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 28%;
+  margin-top: 1em;
+  color: red;
+}
+/*# sourceMappingURL=formInput.module.css.map */

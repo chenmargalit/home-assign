@@ -1,0 +1,65 @@
+.circleContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.inputsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.circle {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 5% 0;
+  height: 30%;
+  width: 30%;
+}
+
+.input {
+  border: 1px solid #040464;
+  border-radius: 17.5%;
+  height: 3em;
+  width: 30%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+.secondInputContainer {
+  margin-top: 10%;
+}
+
+.inputTag {
+  margin-left: 5%;
+}
+
+.female {
+  color: #ffa52e;
+}
+
+.male {
+  color: #7b3ff2;
+}
+
+.percentSign {
+  color: #010a60;
+}
+
+.error {
+  color: red;
+  margin-left: 2em;
+}
+/*# sourceMappingURL=chat.module.css.map */

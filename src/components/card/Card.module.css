@@ -1,0 +1,23 @@
+h1,
+p {
+  color: #010a60;
+  text-align: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3%;
+}
+
+.cardBox {
+  -webkit-box-shadow: 5px 16px 14px 8px #0000001c;
+          box-shadow: 5px 16px 14px 8px #0000001c;
+  width: 75%;
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=Card.module.css.map */

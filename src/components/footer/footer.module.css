@@ -1,0 +1,23 @@
+.container {
+  background-color: #010a60;
+  height: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 3em;
+}
+
+.fb {
+  margin-left: 60em;
+}
+
+.linkedin {
+  margin-left: 62%;
+}
+/*# sourceMappingURL=footer.module.css.map */

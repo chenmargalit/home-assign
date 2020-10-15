@@ -1,0 +1,35 @@
+$text-blue: #010a60;
+
+h1,
+h2,
+p {
+  color: $text-blue;
+  font-family: 'Mulish', sans-serif;
+}
+
+.imageContainer {
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.paragraph,
+.heading {
+  color: $text-blue;
+}
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.paragraph {
+  padding: 0 20%;
+  line-height: 1.5em;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.secondaryHeadline {
+  margin-top: 3em;
+}

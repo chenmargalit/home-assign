@@ -1,0 +1,28 @@
+$error-color: red;
+
+.container {
+  margin-bottom: 10em;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  width: 30%;
+  height: 4em;
+  background-color: #eff2f8;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-top-left-radius: 30px 70%;
+  border-bottom-left-radius: 30px 70%;
+}
+
+.errorMessage {
+  justify-content: flex-start;
+  margin-left: 28%;
+  margin-top: 1em;
+  color: $error-color;
+}

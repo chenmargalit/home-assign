@@ -1,0 +1,20 @@
+$text-blue: #010a60;
+
+.container {
+  background-color: $text-blue;
+  height: 5em;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 100%;
+}
+
+.fb {
+  margin-left: 70%;
+}
+
+.linkedin {
+  margin-left: 2%;
+}
